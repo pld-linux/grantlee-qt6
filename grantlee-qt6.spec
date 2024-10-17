@@ -1,11 +1,11 @@
 
 %bcond_without	tests		# unit tests
 
-%define		qt_ver		5.3.0
+%define		qt_ver		6.6.0
 %define		major_ver	5.3
 
-Summary:	Grantlee - set of frameworks for use with Qt 5
-Summary(pl.UTF-8):	Grantlee - zbiór szkieletów do wykorzystania z Qt 5
+Summary:	Grantlee - set of frameworks for use with Qt 6
+Summary(pl.UTF-8):	Grantlee - zbiór szkieletów do wykorzystania z Qt 6
 Name:		grantlee-qt6
 Version:	5.3.1
 Release:	1
