@@ -27,7 +27,7 @@ BuildRequires:	ninja
 BuildRequires:	qt6-build >= %{qt_ver}
 BuildRequires:	qt6-qmake >= %{qt_ver}
 BuildRequires:	qt6-linguist >= %{qt_ver}
-BuildRequires:	rpmbuild(macros) >= 1.605
+BuildRequires:	rpmbuild(macros) >= 1.736
 Requires:	Qt6Core >= %{qt_ver}
 Requires:	Qt6Gui >= %{qt_ver}
 Obsoletes:	grantlee-qt5 <= %{version}
