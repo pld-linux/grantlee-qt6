@@ -8,7 +8,7 @@ Summary:	Grantlee - set of frameworks for use with Qt 6
 Summary(pl.UTF-8):	Grantlee - zbiór szkieletów do wykorzystania z Qt 6
 Name:		grantlee-qt6
 Version:	5.3.1
-Release:	1
+Release:	2
 License:	LGPL v2.1+
 Group:		Libraries
 Source0:	https://github.com/steveire/grantlee/releases/download/v%{version}/grantlee-%{version}.tar.gz
@@ -30,6 +30,7 @@ BuildRequires:	qt6-linguist >= %{qt_ver}
 BuildRequires:	rpmbuild(macros) >= 1.605
 Requires:	Qt6Core >= %{qt_ver}
 Requires:	Qt6Gui >= %{qt_ver}
+Obsoletes:	grantlee-qt5 <= %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -48,6 +49,7 @@ Requires:	%{name} = %{version}-%{release}
 Requires:	Qt6Core-devel >= %{qt_ver}
 # only textdocument library
 Requires:	Qt6Gui-devel >= %{qt_ver}
+Obsoletes:	grantlee-qt5-devel <= %{version}
 Conflicts:	grantlee-devel
 
 %description devel
