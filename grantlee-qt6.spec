@@ -60,7 +60,7 @@ Pliki nagłówkowe bibliotek grantlee.
 
 %prep
 %setup -q -n grantlee-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %cmake -B build \
